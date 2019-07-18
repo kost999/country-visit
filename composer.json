@@ -9,9 +9,11 @@
     "license": "MIT",
     "require": {
         "php": "^7.1.3",
+        "belka-car/php-lib-http-layer": "^1.0",
         "fideloper/proxy": "^4.0",
         "laravel/framework": "5.8.*",
-        "laravel/tinker": "^1.0"
+        "laravel/tinker": "^1.0",
+        "predis/predis": "^1.1"
     },
     "require-dev": {
         "beyondcode/laravel-dump-server": "^1.0",
@@ -45,6 +47,12 @@
             "Tests\\": "tests/"
         }
     },
+    "repositories": [
+        {
+            "type": "git",
+            "url":  "git@gitlab.belkacar.ru:php-backend/php-lib-http-layer.git"
+        }
+    ],
     "minimum-stability": "dev",
     "prefer-stable": true,
     "scripts": {
