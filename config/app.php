@@ -171,7 +171,6 @@ return [
         /*
          * Application Service Providers...
          */
-        App\Test\Provider::class,
     ],
 
     /*
