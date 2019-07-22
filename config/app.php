@@ -162,6 +162,8 @@ return [
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
 
+        App\Providers\BaseArtisanCommandsProvider::class,
+        
         /*
          * Package Service Providers...
          */
@@ -169,7 +171,7 @@ return [
         /*
          * Application Service Providers...
          */
-        \App\Test\Provider::class,
+        App\Test\Provider::class,
     ],
 
     /*

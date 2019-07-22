@@ -10,6 +10,7 @@ final class Provider extends ServiceProvider
 {
     public function register(): void
     {
+        $this->app->register(EventsProvider::class);
     }
     
     public function boot(): void
