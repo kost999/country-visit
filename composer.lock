@@ -8,11 +8,11 @@
     "packages": [
         {
             "name": "belka-car/php-lib-http-layer",
-            "version": "v1.0.2",
+            "version": "v1.1.0",
             "source": {
                 "type": "git",
                 "url": "git@gitlab.belkacar.ru:php-backend/php-lib-http-layer.git",
-                "reference": "959c14ac6f9e4c18c3d115e2634fe2b532630ad7"
+                "reference": "35595c2ea51d8ab5772456d502742ee93f9d76a3"
             },
             "require": {
                 "jms/serializer": "^3.0",
@@ -46,7 +46,7 @@
                 }
             ],
             "description": "PHP http layer library",
-            "time": "2019-06-26T18:22:51+00:00"
+            "time": "2019-07-22T15:53:01+00:00"
         },
         {
             "name": "doctrine/annotations",
