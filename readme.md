@@ -1,13 +1,8 @@
-### Clean laravel
+### Country visit counter
 
-This is a laravel skeleton version without any frontend, unnecessary providers, middleware, facades and so on.
-The main goal is to make something like lumen, but with laravel capabilities.
+All necessary code located in `jc9/CountryVisit` directory.
+Rest routes are in `jc9/CountryVisit/routes/api.php`.
+Controller is in `jc9/CountryVisit/src/UserInterface/Controllers`.
 
-# Base artisan commands
-If you need some unrepresented artisan commands - go to `App\Providers\BaseArtisanCommandsProvider` and uncomment them
-
-# Providers
-If you need some base providers - you can uncomment them in `config/app.php`
-
-# Tests
-All tests from `belkacar/*some_context*/tests` will be executed automatically
+To be ready for high load, I would use RoadRunner as server, I would horizontally scale the application
+and use redis cluster.
