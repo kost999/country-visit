@@ -38,7 +38,7 @@ $app->singleton(
 
 $app->singleton(
     Illuminate\Contracts\Debug\ExceptionHandler::class,
-    \BelkaCar\PhpLibHttpLayer\Handler::class
+    \Illuminate\Foundation\Exceptions\Handler::class
 );
 
 /*
